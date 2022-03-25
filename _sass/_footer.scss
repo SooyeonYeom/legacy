@@ -63,7 +63,7 @@ footer {
     }
     
     &.creator:hover {
-      text-decoration: underline;
+      color: $themeColor;
     }
   }
 
@@ -80,7 +80,7 @@ footer {
       font-size: rem(15px);
       
       &:hover {
-        text-decoration: underline;
+        color: $themeColor;
       }
     }
   }
@@ -88,11 +88,11 @@ footer {
 
 .main-page {
   footer {
-    background: $primaryDark;
-    border-top: 1px solid lighten($primaryDark, 10%);
+    background: #ffa7a700;
+    border-top: 2px solid lighten($primaryDark, 10%);
     
     p {
-      color: $accentDark;
+      color: $themeColor;
     }
   }
 }

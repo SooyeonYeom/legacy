@@ -76,11 +76,12 @@
 
       .cover {
         .new-post-tag {
-          background-color: #000;
+          background-color: rgb(255, 255, 255);
+          color: $themeColor;
         }
 
         .read-icon {
-          opacity: 1;
+          opacity: 0.7;
         }
       }
     }
@@ -187,8 +188,8 @@
       }
 
       .read-icon {
-        opacity: 0;
-        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0.2;
+        background-color: $themeColor;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -201,8 +202,8 @@
         left: 50%;
         margin-top: rem(-40px);
         margin-left: rem(-40px);
-        border: 2px solid #fff;
-        color: $themeColor;
+        border: 3px solid #fff;
+        color: #fff;
         z-index: 4;
 
         svg {

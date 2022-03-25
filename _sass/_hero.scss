@@ -20,7 +20,7 @@
   }
 
   .pixels {
-    opacity: 0.8;
+    opacity: 0.4;
     background-image: url(../../assets/img/pixels.png);
   }
 
@@ -42,15 +42,17 @@
     }
 
     .date {
-      font-size: rem(16px);
-      color: rgba(255, 255, 255, 0.75);
+      font-size: rem(25px);
+      color: #fff;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      font-weight: bold;
     }
 
     .title {
       font-size: rem(40px);
       color: #fff;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-      margin: rem(10px) 0;
+      margin: rem(15px) 0;
 
       @include media(">=sm") {
         font-size: rem(50px);
@@ -60,6 +62,7 @@
     .description {
       font-size: rem(24px);
       color: #fff;
+      font-weight: bold;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
       margin: 0;
 
@@ -78,7 +81,7 @@
       font-weight: bold;
       color: #fff;
       text-decoration: none;
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: $themeColor;
       border-radius: rem(5px);
       padding: rem(10px) rem(15px);
       transition: all 0.3s;
@@ -88,9 +91,10 @@
       }
 
       &:hover {
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: #fff;
+        color: $themeColor;
         box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2);
-      }
+
 
       svg {
         width: rem(25px);
@@ -98,7 +102,20 @@
         margin-right: rem(10px);
         vertical-align: middle;
         color: $themeColor;
+
       }
+      }
+
+      svg {
+        width: rem(25px);
+        height: rem(25px);
+        margin-right: rem(10px);
+        vertical-align: middle;
+        color: #fff;
+
+      }
+
+
 
       span {
         vertical-align: middle;

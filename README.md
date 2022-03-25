@@ -92,11 +92,11 @@ Create the file `/assets/css/styles.scss` and add:
 ---
 ---
 
-$themeColor: #ff0a16;
-$primaryDark: #141414;
-$accentDark: #ffffff;
-$lightGray: #f2f2f2;
-$texts: #333333;
+$themeColor: #bad5dc;
+$primaryDark: #b4b4af;
+$accentDark: #e3e8ee;
+$lightGray: #d4dfe5;
+$texts: #a5b4b9;
 
 @import "jekflix";
 ```

@@ -1,25 +1,20 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Freeyeon's
+title: Freeyeon's Blog
+description: My private space for studying Art, Design, and Coding.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - Design
+  - Dev
+  - Art
 show_hero: true
 menu:
-  - title: Home
+  - title: Main page
     url: /
-  - title: About
+  - title: About Me
     url: /about
-  - title: Contact
+  - title: Way to Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
+email: valikys@snu.ac.kr
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -29,10 +24,10 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: SooyeonYeom
 facebook_username: facebook_username
 twitter_username: twitter_username
-instagram_username: instagram_username
+instagram_username: waterkite_01
 linkedin_username: linkedin_username
 medium_username: medium_username
 

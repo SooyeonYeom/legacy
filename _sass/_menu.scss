@@ -30,10 +30,10 @@ body.has-push-menu {
 
 aside.sidebar {
   position: fixed;
-  width: rem(240px);
+  width: rem(300px);
   height: 100%;
   top: 0;
-  left: rem(-240px);
+  left: rem(-300px);
   background-color: $accentDark;
   z-index: 20;
 
@@ -48,18 +48,21 @@ aside.sidebar {
   h2 {
     margin: 0 rem(20px) 0;
     @include mainFont(400);
-    font-size: rem(18px);
-    color: $primaryDark;
-    border-bottom: 1px solid $primaryDark;
+    font-size: rem(20px);
+    font-weight: bold;
+    color: $themeColor;
+    border-bottom: 2px solid $themeColor;
     line-height: 50px;
 
     @include media(">=sm") {
       font-size: rem(20px);
+      font-weight: bold;
     }
   }
 
   nav {
     ul {
+      font-size: rem(17px);
       padding: 0;
       margin: rem(5px) 0;
 
