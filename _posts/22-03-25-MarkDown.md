@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About MarkDown Syntax
+title: MarkDown Syntax
 subtitle: 마크다운이란 무엇인가? 
 description: 
 image: https://user-images.githubusercontent.com/98953394/160204579-0ba051c4-b128-4e5b-8747-2751665b18ae.gif
@@ -12,6 +12,7 @@ author: Freeyeon
 ---
 
 <a href="#">This post is a sample post that teaches markdown syntax.</a>
+
 
 > You can quote like this.
 

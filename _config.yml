@@ -1,11 +1,8 @@
 # Site Settings
 name: Freeyeon's
-title: Freeyeon's Blog
+title: Freeyeon's
 description: My private space for studying Art, Design, and Coding.
 tags:
-  - Design
-  - Dev
-  - Art
 show_hero: true
 menu:
   - title: Main page
