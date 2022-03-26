@@ -90,7 +90,7 @@
       display: block;
       padding: rem(15px) 0;
       width: 100%;
-      border-bottom: 1px solid darken($accentDark, 80%);
+      border-bottom: 1px solid $accentDark;
       transition: all 0.3s;
       line-height: rem(25px);
 
