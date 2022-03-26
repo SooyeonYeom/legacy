@@ -24,6 +24,7 @@
   }
 
   .icon {
+    fill: #c3e0f0;
     transition: all 0.3s;
   }
 
@@ -32,6 +33,10 @@
   }
   
   .icon-facebook:hover {
-    fill: #3b5998;
+    fill: #3b5998;}
+
+
+  .icon-instagram:hover {
+    fill: #E4405F;
   }
 }

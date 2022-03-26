@@ -2,6 +2,7 @@
   font-family: "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: $weight;
   font-style: normal;
+  color: $themeColor
 }
 
 @mixin size($width: 30, $height: 30) {

@@ -42,6 +42,7 @@ aside.sidebar {
 
   @include media(">=sm") {
     padding: rem(10px) 0 0;
+    overflow: scroll;
     
   }
 
@@ -50,6 +51,7 @@ aside.sidebar {
   }
 
   
+
 
 
   
@@ -68,6 +70,10 @@ aside.sidebar {
       font-weight: bold;
     }
   }
+
+
+
+
 
   nav {
     ul {

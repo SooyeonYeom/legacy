@@ -1,7 +1,7 @@
 ---
 date : 2022-03-26 01:00:00 +0900
 layout : post
-title : Building My GitBlog !
+title : Building Github Blog
 subtitle: '> 깃블로그 시작하기'
 description : 
 image: https://user-images.githubusercontent.com/98953394/160202755-591efd34-e690-42ff-916c-fdbce1bcbf34.gif
