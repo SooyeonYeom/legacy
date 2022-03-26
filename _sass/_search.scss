@@ -99,6 +99,8 @@
         .entry-category {
           color: #ffffff;
         }
+
+      border-bottom: 1px solid $themeColor;
       }
     }
   }
@@ -125,6 +127,7 @@
   overflow: hidden;
 
   &:after {
+    opacity: 50%;
     position: fixed;
     top: 0;
     left: 0;

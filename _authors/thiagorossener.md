@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: https://user-images.githubusercontent.com/98953394/160213228-617a1b45-fcec-4682-9406-346146e0610e.gif
+photo: /assets/img/uploads/profile.png
 name: thiagorossener
 display_name: Thiago Rossener
 position: Chief Editor
