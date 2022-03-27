@@ -94,6 +94,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
         href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Include extra styles -->
     {% include extra-css.html %}
 
@@ -101,6 +103,14 @@
     <script>
         document.querySelector('html').classList.remove('no-js');
     </script>
+
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+    <script>
+        Kakao.init('e76b2e6ef9838c0a4c7e25e6193e0b59');
+        Kakao.isInitialized();
+    </script>
+
 
 
 

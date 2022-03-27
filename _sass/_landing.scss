@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(87, 106, 131, 0.679);
+    background-image: "https://user-images.githubusercontent.com/98953394/160276032-283d67d2-42bc-4269-b262-2f82e5a9951b.gif";
+}
+
+.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: $accentDark;
+    text-align: center;
+}
+
+.material-icon{
+    font-size: 10rem;
+}
+
+.lg-text{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.sm-text{
+    font-size: 1.5rem;
+}
