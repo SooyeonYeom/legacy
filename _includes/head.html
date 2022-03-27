@@ -109,6 +109,12 @@
     <script>
         Kakao.init('e76b2e6ef9838c0a4c7e25e6193e0b59');
         Kakao.isInitialized();
+        function sendKakao() {
+            Kakao.Link.createScrapButton({
+                container: '#create-kakao-link-btn',
+                requestUrl: 'https://developers.kakao.com',
+            })
+        }
     </script>
 
 
