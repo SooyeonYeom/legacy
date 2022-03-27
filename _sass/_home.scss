@@ -39,6 +39,7 @@
   transition: all 0.3s;
   position: relative;
   z-index: 1;
+  cursor: pointer;
 
   @include media(">=sm") {
     margin: 0 rem($itemMargin) rem(30px);
@@ -128,6 +129,8 @@
       color: $accentDark;
       line-height: rem(30px);
     }
+
+
 
     p {
       margin: 0 0 rem(30px);

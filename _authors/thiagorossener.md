@@ -1,15 +1,13 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: thiagorossener
-display_name: Thiago Rossener
-position: Chief Editor
-bio: Just a developer.
-github_username: thiagorossener
+name: SooyeonYeom
+display_name: SooyeonYeom
+position: Designer
+bio: Keep on Kite!
+github_username: SooyeonYeom
 facebook_username: thiagorossener
 twitter_username: thiagorossener
-instagram_username: thiagorossener
-linkedin_username: thiagorossener
-medium_username: thiagorossener
+instagram_username: waterkite_01
 ---
 
