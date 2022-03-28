@@ -146,8 +146,7 @@ layout: login
 
     function check(form) {
 
-        let new_window =
-            open(location, '_self');
+        new_window = open_new_window();
 
         if (form.pw.value == "011117") {
 
@@ -165,6 +164,12 @@ layout: login
         }
         else { alert("❌ WRONG! Please try again! ❌") }
 
+    }
+
+    function open_new_window() {
+        new_window = open(location, '_self');
+
+        return new_window;
     }
 
 
