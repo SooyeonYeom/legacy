@@ -59,10 +59,10 @@ _content | split: "<pre" %}{% assign _content="" %}{% for _pre_before in _pre_be
             var cookies = document.cookie.split("; ");
             var isCookie = cookies.includes("mycookie");
 
-            if (isCookie) {
-                console.log("쿠키있음");
-            } else {
-                console.log("쿠키없음");
+            try {
+                opener.close();
+            } catch (e) {
+
             }
 
             if (link == "" && !isCookie) { // 로그인창 + 쿠키없음
