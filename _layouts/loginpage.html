@@ -148,11 +148,13 @@ layout: login
 
         if (form.pw.value == "011117") {
 
-            var date = new Date();
-            date.setTime(date.getTime() + (60 * 60 * 1000));
-            var expires = "; expires=" + date.toGMTString();
+            if (!document.cookie.split("; ").includes("mycookie")) {
+                var date = new Date();
+                date.setTime(date.getTime() + (60 * 60 * 1000));
+                var expires = "; expires=" + date.toGMTString();
 
-            document.cookie = name + "=mycookie" + expires + "; path=/";
+                document.cookie = name + "=mycookie" + expires + "; path=/";
+            }
 
             window.open("home");
         }
