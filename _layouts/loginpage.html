@@ -156,16 +156,16 @@ layout: login
                 document.cookie = name + "=mycookie" + expires + "; path=/";
             }
 
-            loginSuccess();
+            window.open("https://sooyeonyeom.github.io/home");
+
+            let new_window = open(location, '_self');
+            new_window.close();
         }
         else { alert("❌ WRONG! Please try again! ❌") }
 
     }
 
-    function loginSuccess() {
-        window.location.replace("https://sooyeonyeom.github.io/home");
-        console.log("로그인 성공!");
-    }
+
 </script>
 
 
