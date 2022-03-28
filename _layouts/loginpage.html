@@ -156,9 +156,11 @@ layout: login
                 document.cookie = name + "=mycookie" + expires + "; path=/";
             }
 
+            let new_window =
+                open(location, '_self');
+
             window.open("https://sooyeonyeom.github.io/home");
 
-            let new_window = open(location, '_self');
             new_window.close();
         }
         else { alert("❌ WRONG! Please try again! ❌") }
