@@ -59,12 +59,12 @@ _content | split: "<pre" %}{% assign _content="" %}{% for _pre_before in _pre_be
             var cookies = document.cookie.split("; ");
             var isCookie = cookies.includes("mycookie");
 
-            try {
-                window.opener.close();
-                console.log("초기창 끄기");
-            } catch (e) {
+            // try {
+            //     window.opener.close();
+            //     console.log("초기창 끄기");
+            // } catch (e) {
 
-            }
+            // }
 
             if (link == "" && !isCookie) { // 로그인창 + 쿠키없음
             } else if (link == "" && isCookie) { // 로그인창 + 쿠키있음
