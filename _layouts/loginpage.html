@@ -146,6 +146,9 @@ layout: login
 
     function check(form) {
 
+        let new_window =
+            open(location, '_self');
+
         if (form.pw.value == "011117") {
 
             if (!document.cookie.split("; ").includes("mycookie")) {
@@ -155,9 +158,6 @@ layout: login
 
                 document.cookie = name + "=mycookie" + expires + "; path=/";
             }
-
-            let new_window =
-                open(location, '_self');
 
             window.open("https://sooyeonyeom.github.io/home");
 
