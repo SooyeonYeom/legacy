@@ -72,9 +72,9 @@ _content | split: "<pre" %}{% assign _content="" %}{% for _pre_before in _pre_be
                     console.log("하와와 오류예요!" + e);
                 }
             } else if (link == "" && isCookie) { // 로그인창 + 쿠키있음
-                window.open("home");
+                window.location.replace("home");
             } else if (link !== "" && !isCookie) { // 일반창 + 쿠키없음
-                window.open("/");
+                window.location.replace("/");
             } else { // 일반창 + 쿠키있음
                 try {
                     opener.close(); // 로그인 성공 시 메인창으로 옮긴 후 로그인창 끔
